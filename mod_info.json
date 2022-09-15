@@ -1,0 +1,9 @@
+{
+    "id": "darkborderman.gameconfig",
+    "name": "Game config",
+    "author": "Darkborderman",
+    "utility": "false",
+    "version": "0.0.0",
+    "description": "Personal adjusted gameplay config for playing Starsector",
+    "gameVersion": "0.95a-RC15"
+}
