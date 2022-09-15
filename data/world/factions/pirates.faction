@@ -1,0 +1,8 @@
+{
+    "custom":{
+        "buysAICores":true,
+        "AICoreValueMult":0.5,
+        "AICoreRepMult":1.5,
+        "offersCommissions":true
+    }
+}

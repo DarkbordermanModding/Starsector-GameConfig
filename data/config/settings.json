@@ -1,0 +1,62 @@
+{
+    "combatSpeedMult":"1.5f",
+
+    "speedPerBurnLevel": 100,
+    "maxStormStrikeBurn": 20,
+
+    # Hullmods
+    "maxLogisticsHullmods": 100,
+    "maxPermanentHullmods": 99,
+    "maxDModsAddedByCombat": 15,
+
+    "baseMaxOutposts": 0,
+    "colonyOverMaxPenalty":0,
+
+    "upkeepReductionFromInFactionImports": 1.0,
+    "maxIndustries":[11,12,13,14,15,16,17,18,19,20],
+    # This is contolled by other mod (Astral Ascension)
+    "maxColonySize": 9,
+    "accessibilityLossWhenAllHostile": 0,
+
+    "techMiningDecay":1.0,
+
+    "salvageWeaponProb":1.0,
+    "salvageWingProb":1.0,
+
+    "historianSpecialItemBase":0,
+    "industryImproveBase":0,
+    "createStableLocation":0,
+
+    "showMaxShipsWidgetAtShips":0,
+    "maxShipsInFleet":100,
+    "maxShipsInAIFleet":100,
+    "maxOfficersInAIFleet":100,
+
+	"drop_prob_officer_alpha_core":1.0,
+	"drop_prob_officer_beta_core":1.0,
+	"drop_prob_officer_gamma_core":1.0,
+
+    "minBattleSize":200,
+    "defaultBattleSize":600,
+    "maxBattleSize":1000,
+
+    "minPersonBounties":6,
+    "maxPersonBounties":12,
+    "personBountyNoSpawnRangeAroundPlayerLY":1,
+
+    # Deciv
+    "decivSamplingMonths": 240,
+
+    # Raid
+    "raidCooldownDays":0,
+    "raidDefenderIncreasePerRaid":0,
+    "raidDefenderIncreaseMax":0,
+    "raidDefenderIncreaseFraction":0,
+    "raidDefenderIncreaseMin":0,
+
+    "contactMissionUpdateIntervalDays":1,
+
+    # Restore and salvage
+    "baseRestoreCostMult":0.4,
+    "baseRestoreCostMultPerDMod":1.25,
+}
