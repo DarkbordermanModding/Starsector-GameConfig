@@ -21,5 +21,7 @@
 	"raidDefenderIncreaseMax":0,
 	"raidDefenderIncreaseFraction":0,
 	"raidDefenderIncreaseMin":0,
-	"maxDModsAddedByCombat": 15
+	"maxDModsAddedByCombat": 15,
+	"maxEconFleets": 120,
+	"contactMissionUpdateIntervalDays":1
 }
