@@ -1,27 +1,38 @@
 {
-	"combatSpeedMult":"1.5f",
-	"speedPerBurnLevel": 100,
-	"maxStormStrikeBurn": 20,
-	"maxLogisticsHullmods": 100,
-	"maxPermanentHullmods": 99,
-	"baseMaxOutposts": 10000,
-	"maxIndustries":[1,2,3,4,5,6,7,8,9,9],
-	"maxColonySize": 9,
-	"industryImproveBase":0,
-	"createStableLocation":0,
-	"minBattleSize":100,
-	"defaultBattleSize":300,
-	"maxBattleSize":1000,
-	"maxShipsInFleet":100,
-	"maxShipsInAIFleet":100,
-	"baseShipRecoveryChance":0.6,
-	"baseOwnShipRecoveryChance":1.0,
-	"raidCooldownDays":0,
-	"raidDefenderIncreasePerRaid":0,
-	"raidDefenderIncreaseMax":0,
-	"raidDefenderIncreaseFraction":0,
-	"raidDefenderIncreaseMin":0,
-	"maxDModsAddedByCombat": 15,
-	"maxEconFleets": 120,
-	"contactMissionUpdateIntervalDays":1
+    "combatSpeedMult":"1.5f",
+
+    "speedPerBurnLevel": 100,
+    "maxStormStrikeBurn": 20,
+
+    "maxLogisticsHullmods": 100,
+    "maxPermanentHullmods": 99,
+
+    "baseMaxOutposts": 0,
+    "colonyOverMaxPenalty":0,
+
+    "maxIndustries":[1,2,3,4,5,6,7,8,9,9],
+    "maxColonySize": 9,
+
+    "techMiningDecay":1.0,
+
+    "industryImproveBase":0,
+    "createStableLocation":0,
+
+    "maxShipsInFleet":100,
+    "maxShipsInAIFleet":100,
+
+    "minBattleSize":100,
+    "defaultBattleSize":300,
+    "maxBattleSize":1000,
+
+    "minPersonBounties":6,
+    "maxPersonBounties":10,
+
+    "raidCooldownDays":0,
+    "raidDefenderIncreasePerRaid":0,
+    "raidDefenderIncreaseMax":0,
+    "raidDefenderIncreaseFraction":0,
+    "raidDefenderIncreaseMin":0,
+
+    "contactMissionUpdateIntervalDays":1
 }
