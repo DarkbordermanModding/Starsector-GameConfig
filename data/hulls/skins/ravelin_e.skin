@@ -1,17 +1,17 @@
 {
-	"baseHullId":"ravelin",
-	"skinHullId":"ravelin_e",
-	"hullName":"Ravelin Extreme(E)",
-	"systemId":"temporalshell",
+    "baseHullId":"ravelin",
+    "skinHullId":"ravelin_e",
+    "hullName":"Ravelin Extreme(E)",
+    "systemId":"temporalshell",
     "ordnancePoints": 250,
-	"restoreToBaseHull":false,
-	"spriteName":"graphics/ships/stations/ravelin2.png",
-	"removeWeaponSlots":[], 		# ids
-	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
-	"removeBuiltInMods":[], 		# hullmod ids
-	"removeBuiltInWeapons":[], 		# weapon slot ids
-	"builtInMods":["no_weapon_flux", "advancedcore", "fluxshunt"],
-	"builtInWeapons":{
+    "restoreToBaseHull":false,
+    "spriteName":"graphics/ships/stations/ravelin2.png",
+    "removeWeaponSlots":[],         # ids
+    "removeEngineSlots":[],         # indices, as engine slots have no id in the .ship file
+    "removeBuiltInMods":[],         # hullmod ids
+    "removeBuiltInWeapons":[],         # weapon slot ids
+    "builtInMods":["no_weapon_flux", "advancedcore", "fluxshunt"],
+    "builtInWeapons":{
     },
     "weaponSlotChanges":{
         "WS 000":{
@@ -21,13 +21,13 @@
             "size": "MEDIUM",
             "type": "ENERGY"
         },
-		"WS 001":{
+        "WS 001":{
             "angle": 0,
             "arc": 360,
             "mount": "TURRET",
             "size": "LARGE",
             "type": "ENERGY"
-		},
+        },
         "WS 002":{
             "angle": 45,
             "arc": 140,
@@ -70,5 +70,5 @@
             "size": "MEDIUM",
             "type": "ENERGY"
         }
-	}
+    }
 }
