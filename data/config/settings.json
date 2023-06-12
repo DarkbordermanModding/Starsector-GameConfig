@@ -17,6 +17,9 @@
 
     "techMiningDecay":1.0,
 
+    "salvageWeaponProb":0.75,
+    "salvageWingProb":0.75,
+
     "industryImproveBase":0,
     "createStableLocation":0,
 
