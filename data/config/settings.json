@@ -10,7 +10,7 @@
     "baseMaxOutposts": 0,
     "colonyOverMaxPenalty":0,
 
-    "upkeepReductionFromInFactionImports": 0.8,
+    "upkeepReductionFromInFactionImports": 1.0,
     "maxIndustries":[9,9,9,9,9,9,9,9,9,9],
     "maxColonySize": 9,
     "accessibilityLossWhenAllHostile": 0,
