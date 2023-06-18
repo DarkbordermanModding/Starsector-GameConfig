@@ -26,6 +26,10 @@
     "maxShipsInFleet":100,
     "maxShipsInAIFleet":100,
 
+	"drop_prob_officer_alpha_core":1.0,
+	"drop_prob_officer_beta_core":1.0,
+	"drop_prob_officer_gamma_core":1.0,
+
     "minBattleSize":100,
     "defaultBattleSize":300,
     "maxBattleSize":1000,
