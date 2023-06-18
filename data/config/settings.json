@@ -31,7 +31,8 @@
     "maxBattleSize":1000,
 
     "minPersonBounties":6,
-    "maxPersonBounties":10,
+    "maxPersonBounties":12,
+    "personBountyNoSpawnRangeAroundPlayerLY":1,
 
     "raidCooldownDays":0,
     "raidDefenderIncreasePerRaid":0,
