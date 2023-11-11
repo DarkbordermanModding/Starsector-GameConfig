@@ -12,7 +12,8 @@
 
     "upkeepReductionFromInFactionImports": 1.0,
     "maxIndustries":[11,12,13,14,15,16,17,18,19,20],
-    "maxColonySize": 9,
+    # This is implemented by other mod (Astral Ascension)
+    # "maxColonySize": 9,
     "accessibilityLossWhenAllHostile": 0,
 
     "techMiningDecay":1.0,
