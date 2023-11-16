@@ -39,6 +39,10 @@
     "maxPersonBounties":12,
     "personBountyNoSpawnRangeAroundPlayerLY":1,
 
+    # Deciv
+    "decivSamplingMonths": 240,
+
+    # Raid
     "raidCooldownDays":0,
     "raidDefenderIncreasePerRaid":0,
     "raidDefenderIncreaseMax":0,
