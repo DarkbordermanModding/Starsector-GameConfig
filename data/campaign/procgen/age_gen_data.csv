@@ -1,4 +1,4 @@
 id,minExtraOrbits,maxExtraOrbits,probNebula,nebulaDensity,freqNormal,freqBinary,freqTrinary
-YOUNG,10,10,1.0,0.8,100,30,10
-AVERAGE,8,8,1.0,0.55,100,20,5
-OLD,6,6,1.0,0.3,100,10,0
+YOUNG,0,0,1.0,0.3,100,0,0
+AVERAGE,0,0,1.0,0.3,100,0,0
+OLD,0,0,1.0,0.3,100,0,0
