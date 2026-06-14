@@ -1,0 +1,44 @@
+apply plugin: 'java'
+
+// project level config
+sourceSets.main.java.srcDir 'src'
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+base {
+    archivesName = 'gameconfig'
+}
+
+build {
+    doLast {
+        copy {
+            from jar
+            into 'jars'
+        }
+    }
+}
+
+task release(type: Zip) {
+    description 'Create releaseable zip file.'
+    def cmdOutput = 'jq -rj .version mod_info.json'.execute().text
+    from '.'
+    include 'src/'
+    include 'data/'
+    include 'graphics/'
+    include 'sounds/'
+    include 'jars/'
+    include 'mod_info.json'
+    archiveFileName = project.base.archivesName.get() + '-' + cmdOutput + '.zip'
+    destinationDirectory = file('bins/')
+}
+
+clean {
+    description 'Cleanup files'
+    delete fileTree('jars/') { include '*.jar' }
+    delete fileTree('bins/') { include '*.zip' }
+}
+
+dependencies {
+    implementation fileTree(dir: './libs/', include: '*.jar')
+}
