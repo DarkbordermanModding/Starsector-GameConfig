@@ -16,7 +16,7 @@ public class GameConfigPlugin extends BaseModPlugin {
             try {
                 JSONObject custom = faction.getCustom();
                 if (custom == null) continue;
-                custom.put("caresAboutAtrocities", true);
+                custom.put("caresAboutAtrocities", false);
                 faction.setCustom(custom);
             } catch (JSONException e) {
                 Global.getLogger(GameConfigPlugin.class).warn("Failed to set caresAboutAtrocities for faction: " + faction.getId(), e);
