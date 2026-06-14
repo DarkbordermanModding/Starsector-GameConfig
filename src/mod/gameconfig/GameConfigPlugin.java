@@ -2,8 +2,6 @@ package mod.gameconfig;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.ShipHullSpecAPI;
-import com.fs.starfarer.api.combat.ShipHullSpecAPI.ShipTypeHints;
 import com.fs.starfarer.api.campaign.FactionSpecAPI;
 import org.json.JSONException;
 import org.json.JSONObject;
