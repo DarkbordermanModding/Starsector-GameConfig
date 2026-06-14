@@ -6,5 +6,6 @@
     "version": "0.0.0",
     "description": "Personal adjusted gameplay config for playing Starsector",
     "gameVersion": "0.98a-RC8",
-    "jars": []
+    "jars": ["jars/gameconfig.jar"],
+    "modPlugin": "mod.gameconfig.GameConfigPlugin"
 }
