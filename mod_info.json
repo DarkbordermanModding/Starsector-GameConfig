@@ -5,5 +5,6 @@
     "utility": "false",
     "version": "0.0.0",
     "description": "Personal adjusted gameplay config for playing Starsector",
-    "gameVersion": "0.97a-RC11"
+    "gameVersion": "0.98a-RC8",
+    "jars": []
 }
